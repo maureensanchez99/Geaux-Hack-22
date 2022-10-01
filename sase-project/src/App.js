@@ -1,44 +1,18 @@
 import './App.css';
 
-import { useEffect, useState, useRef } from "react";
-import axios from "axios";
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title> LSU </title>
+    <title> Tiger Trax </title>
+  </head>
+  <body> 
+    <img id = " " src = " " style = "width: 100px" ></img> // blank image file check accept type
+    <button onclick = " "> Park Here </button>
+    <button onclick = " "> View Live Map </button>
+  </body>
 
-// TomTom SDK
-import * as tt from "@tomtom-international/web-sdk-maps";
-// styles
-import "@tomtom-international/web-sdk-maps/dist/maps.css";
-
-function App() {
-  const [map, setMap] = useState();
-  const mapContainer = useRef();
-  const AMSTERDAM = { lon: 4.896029, lat: 52.371807 };
-  
-  useEffect(() => {
-    let map = tt.map({
-      key: "qgsuBcvctE2xWrChbABEv2mcoxa21qoV",
-      container: mapContainer.current.id,
-      center: AMSTERDAM,
-      zoom: 10,
-      language: "en-GB",
-    });
-    map.addControl(new tt.FullscreenControl());
-    map.addControl(new tt.NavigationControl());
-
-    setMap(map);
-    return () => {
-      map.remove();
-    };
-    //eslint-disable-next-line
-  }, []);
-
-  return (
-    <div className="container">
-      <nav className="nav">
-        <h1>Tiger Trax</h1>
-      </nav>
-      <div ref={mapContainer} className="map" id="map" />
-    </div>
-  );
-}
+</html> 
 
 export default App;
+
