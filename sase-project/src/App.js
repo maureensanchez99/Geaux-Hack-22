@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     let map = tt.map({
-      key: <qgsuBcvctE2xWrChbABEv2mcoxa21qoV>,
+      key: <qgsuBcvctE2xWrChbABEv2mcoxa21qoV/>,
       container: mapContainer.current.id,
       center: AMSTERDAM,
       zoom: 10,
