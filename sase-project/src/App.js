@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <h3>Tiger Trax</h3>
+    <div className="container">
+      <h3 className="header">Tiger Trax</h3>
     </div>
   );
 }
