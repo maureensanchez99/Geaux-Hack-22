@@ -5,14 +5,12 @@
 }
 
 .container{
-  margin: 0 auto;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
 }
 
 .nav{
@@ -23,7 +21,6 @@
   height: 10%;
   background-color: #4169e1;
   color: #ffffff;
-  font-size: 4.4rem;
 }
 
 .nav h1 {
