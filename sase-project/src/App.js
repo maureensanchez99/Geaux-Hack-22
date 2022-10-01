@@ -1,5 +1,6 @@
 import './App.css';
 import {Routes, Route, useNavigate} from 'react-router-dom';
+import LiveData from './LiveData';
 
 function App(){
   const navigate = useNavigate();
@@ -16,12 +17,12 @@ function App(){
     <div>
       <div className="container">
         <h1 className="header">Tiger</h1>
-        <button onClick={navigateToMap}>Live Map</button>
+        {/* <button onClick={navigateToMap}>Live Map</button> */}
       </div>
 
-      <Routes>
-        <Route path="/LiveData" element={<LiveData/>}></Route>
-      </Routes>
+      {/* <Routes> */}
+        {/* <Route path="/" element={<LiveData/>}></Route> */}
+      {/* </Routes> */}
     </div>
   );
 }
