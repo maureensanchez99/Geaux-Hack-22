@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
-import "./App.css";
+
 // TomTom SDK
 import * as tt from "@tomtom-international/web-sdk-maps";
 // styles
