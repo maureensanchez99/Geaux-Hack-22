@@ -1,6 +1,5 @@
 import './App.css';
 
-<!DOCTYPE html> 
 <html>
   <head>
     <title> LSU </title>
@@ -9,7 +8,7 @@ import './App.css';
   <body> 
     <img id = " " src = " " style = "width: 100px" ></img> // blank image file check accept type
     <button onclick = " "> Park Here </button>
-    <button onclick = " "> View Live Map </button>
+    <button onclick = "LiveData.js"> View Live Map </button>
   </body>
 
 </html> 
