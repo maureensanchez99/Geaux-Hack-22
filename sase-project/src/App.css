@@ -5,7 +5,11 @@
 }
 
 .header{
-  font-size: 4rem;
+  margin-top: 20px;
   background-color: #9C86D5;
+}
+
+.h1{
   color: #ffffff;
+  font-size: 4rem;
 }
