@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Geaux-Hack-22/static/css/main.85c87bf0.css",
-    "main.js": "/Geaux-Hack-22/static/js/main.5d18daa0.js",
+    "main.css": "/Geaux-Hack-22/static/css/main.730a6533.css",
+    "main.js": "/Geaux-Hack-22/static/js/main.eb9d6e40.js",
     "static/js/787.8e4c4f16.chunk.js": "/Geaux-Hack-22/static/js/787.8e4c4f16.chunk.js",
     "index.html": "/Geaux-Hack-22/index.html",
-    "main.85c87bf0.css.map": "/Geaux-Hack-22/static/css/main.85c87bf0.css.map",
-    "main.5d18daa0.js.map": "/Geaux-Hack-22/static/js/main.5d18daa0.js.map",
+    "main.730a6533.css.map": "/Geaux-Hack-22/static/css/main.730a6533.css.map",
+    "main.eb9d6e40.js.map": "/Geaux-Hack-22/static/js/main.eb9d6e40.js.map",
     "787.8e4c4f16.chunk.js.map": "/Geaux-Hack-22/static/js/787.8e4c4f16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85c87bf0.css",
-    "static/js/main.5d18daa0.js"
+    "static/css/main.730a6533.css",
+    "static/js/main.eb9d6e40.js"
   ]
 }
